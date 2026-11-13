@@ -21,6 +21,3 @@ build/*
 
 # VS Code
 .vscode
-
-# serverless stuff
-.serverless
