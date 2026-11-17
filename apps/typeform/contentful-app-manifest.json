@@ -1,0 +1,47 @@
+{
+  "functions": [
+    {
+      "id": "handleForms",
+      "name": "App Action Function Template",
+      "description": "Template for creating custom app actions. Add your own code to define how your app should respond when an action is triggered.",
+      "path": "functions/handleForms.js",
+      "entryFile": "functions/handleForms.ts",
+      "allowNetworks": [],
+      "accepts": [
+        "appaction.call"
+      ]
+    },
+    {
+      "id": "handleWorkspaces",
+      "name": "App Action Function Template",
+      "description": "Template for creating custom app actions. Add your own code to define how your app should respond when an action is triggered.",
+      "path": "functions/handleWorkspaces.js",
+      "entryFile": "functions/handleWorkspaces.ts",
+      "allowNetworks": [],
+      "accepts": [
+        "appaction.call"
+      ]
+    },
+    {
+      "id": "fetchAccessToken",
+      "name": "App Action Function Template",
+      "description": "Template for creating custom app actions. Add your own code to define how your app should respond when an action is triggered.",
+      "path": "functions/fetchAccessToken.js",
+      "entryFile": "functions/fetchAccessToken.ts",
+      "allowNetworks": [],
+      "accepts": [
+        "appaction.call"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "id": "exampleAction",
+      "name": "Example Action",
+      "type": "function-invocation",
+      "functionId": "appactionCall",
+      "category": "Custom",
+      "parameters": []
+    }
+  ]
+}
